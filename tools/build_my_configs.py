@@ -185,7 +185,6 @@ def replace_variables(config_type, archivetime):
     myconfig_path = myconfig_newdir(xmlvar['MYCONFIG_DIR'], archivetime)
 
     # iterate over the load order dict, parse the snippet into XML objects, then save to the my_config folder
-    # i is the key in the orderedDict
     for xml_xpath in snippet_dict:
 
         print(f'\nworking with {xml_xpath}')
